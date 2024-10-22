@@ -1,1 +1,92 @@
+/* Primary Color Palette */
+:root {
+    --primary-blue: #0056b3;  /* Main blue color */
+    --secondary-blue: #0077cc;  /* Accent blue for buttons and links */
+    --light-blue: #f0f4f8;  /* Background blue-gray */
+    --white: #ffffff;  /* White for backgrounds */
+    --dark-gray: #333333;  /* Dark gray for text */
+    --light-gray: #888888;  /* Lighter gray for secondary text */
+}
+
+/* General Body Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--dark-gray);
+    background-color: var(--light-blue);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-blue);
+    margin-bottom: 0.75em;
+}
+
+p {
+    color: var(--dark-gray);
+    margin-bottom: 1.25em;
+}
+
+a {
+    color: var(--secondary-blue);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: var(--primary-blue);
+}
+
+/* Header */
+header {
+    background-color: var(--primary-blue);
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: var(--white);
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: var(--light-blue);
+}
+
+/* Hero Section */
+#hero {
+    background-color: var(--primary-blue);
+    color: var(--white);
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+#hero p {
+    font-size: 1.2em;
+}
+
+/* Services Section */
+#services {
+    padding: 40px 20px;
+    background-color: var(--white);
+}
+
 
