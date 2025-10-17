@@ -36,3 +36,11 @@ o	Enables business and audit reporting.
 10.	Archival / Backup (Optional)
 o	Archives processed data, logs, and reports for regulatory compliance and historical audit.
 
+🔐 Key Features
+
+✅ Automated Data Fetching
+🧹 Data Validation and Cleaning
+🔄 Multi-source Reconciliation
+📊 Real-time Dashboards
+🪣 Scalable Object Storage
+📂 Audit & Compliance Ready
